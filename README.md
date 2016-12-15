@@ -1,7 +1,7 @@
 # [Bosch production line performance](https://www.kaggle.com/c/bosch-production-line-performance)
 
 
-##Exploratory data analsis based on PySpark RDD based API and Jupyter notebook.
+##Exploratory data analsis based on [Spark RDD based on Python API](http://spark.apache.org/docs/latest/api/python/index.html) and Jupyter notebook.
 
 * [Decision_Tree_Refine.ipynb](https://github.com/pythonpanda/bosch-production-line-performance/blob/master/Decision_Tree_Refine.ipynb)	
 

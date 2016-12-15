@@ -7,7 +7,7 @@
 
 ##Running the code 
 Can be run directly on desktop with a PySpark standalone mode. A workaround to setting  up master and worker nodes (requires $SPARK_HOME to be set) : 
-$ nohup python script.py &
+* $ nohup python script.py &
 
 ##Feature reduction
 Feature reduction (/information) on numeric data has been performed by exploiting the high level Spark dataframe ([SparkSQL](https://spark.apache.org/docs/1.6.2/api/python/pyspark.sql.html)):

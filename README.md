@@ -14,7 +14,7 @@ Feature reduction (/information) on numeric data can be calculated with "feature
 
 ##Decision tree / Random Forest / GBT
 Once we have the information for the list of columns to be removed then, we can invoke MLlib (RDD based machine learning in Spark)) or  ML (dataframe based machine learning in Spark). The data set is split in to (0.7,0.3) ratio for traning and test set respecteively . The test set predictions are accessed based on : 
-* Accuracy , confusion matrix, and [Matthews correlation coefficient](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient) . 
+* Accuracy , [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix), and [Matthews correlation coefficient](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient) . 
 
 Decision_Tree_Reduced_Feature.py
 Random_forest_reduced_feature.py 

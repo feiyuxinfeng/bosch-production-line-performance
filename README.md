@@ -1,12 +1,12 @@
 # [Bosch production line performance](https://www.kaggle.com/c/bosch-production-line-performance)
 
 
-##Exploratory data analsis based on [Apache Spark RDD based on Python API](http://spark.apache.org/docs/latest/api/python/index.html) and Jupyter notebook.
+##Exploratory data analysis based on [Apache Spark RDD based on Python API](http://spark.apache.org/docs/latest/api/python/index.html) and Jupyter notebook.
 
 * [Decision_Tree_Refine.ipynb](https://github.com/pythonpanda/bosch-production-line-performance/blob/master/Decision_Tree_Refine.ipynb)	
 
 ##Running the code 
-Requires $SPARK_HOME to be set . Can be run directly on desktop with a PySpark standalone mode. Worked fine for me with out even setting up master and workers! 
+Can be run directly on desktop with a PySpark standalone mode. A workaround to setting  up master and worker nodes (requires $SPARK_HOME to be set) : 
 $ nohup python script.py &
 
 ##Feature reduction

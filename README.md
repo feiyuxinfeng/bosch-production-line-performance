@@ -14,7 +14,7 @@ Feature reduction (/information) on numeric data has been performed by exploitin
 
 * [feature_correlation.py](https://github.com/pythonpanda/bosch-production-line-performance/blob/master/feature_correlation.py) 
 
-Highly correlated feature information is constructed based on [Pearson correlation](https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient) criterion. The reduced features can be used for training SPARK ML or MLlib.
+Highly correlated feature information are constructed based on [Pearson correlation](https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient) criterion. The reduced features can be used for training SPARK ML or MLlib.
 
 ##Decision tree / Random Forest / GBT
 Once we have the information for the list of columns to be removed then, we can invoke MLlib (RDD based machine learning in Spark)) or  ML (dataframe based machine learning in Spark). The data set is split in to (0.7,0.3) ratio for traning and test set respecteively . The test set predictions are accessed based on : 
